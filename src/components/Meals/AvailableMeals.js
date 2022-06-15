@@ -12,7 +12,7 @@ const AvailableMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch(
-        'put your firebase realtime data here'
+        'put your firebase realtime database url here'
       );
 
       if (!response.ok) {
